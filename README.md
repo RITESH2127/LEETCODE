@@ -7,4 +7,16 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [1757-recyclable-and-low-fat-products](https://github.com/RITESH2127/LEETCODE/tree/master/1757-recyclable-and-low-fat-products) |
+## Hash Table
+|  |
+| ------- |
+| [0012-integer-to-roman](https://github.com/RITESH2127/LEETCODE/tree/master/0012-integer-to-roman) |
+## Math
+|  |
+| ------- |
+| [0012-integer-to-roman](https://github.com/RITESH2127/LEETCODE/tree/master/0012-integer-to-roman) |
+## String
+|  |
+| ------- |
+| [0012-integer-to-roman](https://github.com/RITESH2127/LEETCODE/tree/master/0012-integer-to-roman) |
 <!---LeetCode Topics End-->
