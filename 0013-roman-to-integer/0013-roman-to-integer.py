@@ -18,9 +18,11 @@ class Solution(object):
         result = 0
 
         for i in range(len(s)):
-            if i + 1 < len(s) and values[s[i]] < values[s[i + 1]]:
-                result -= values[s[i]]
+            current = values[s[i]]
+
+            if i + 1 < len(s) and current < values[s[i + 1]]:
+                result -= current
             else:
-                result += values[s[i]]
+                result += current
 
         return result
