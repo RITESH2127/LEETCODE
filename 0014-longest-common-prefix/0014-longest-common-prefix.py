@@ -8,13 +8,13 @@ class Solution(object):
         if not strs:
             return ""
 
-        prefix = strs[0]
+        for i in range(len(strs[0])):
 
-        for i in range(1, len(strs)):
-            while not strs[i].startswith(prefix):
-                prefix = prefix[:-1]
+            char = strs[0][i]
 
-                if prefix == "":
-                    return ""
+            for j in range(1, len(strs)):
 
-        return prefix
+                if i >= len(strs[j]) or strs[j][i] != char:
+                    return strs[0][:i]
+
+        return strs[0]
