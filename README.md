@@ -365,4 +365,8 @@ Made with ❤️ by [RITESH2127](https://github.com/RITESH2127)
 |  |
 | ------- |
 | [0016-3sum-closest](https://github.com/RITESH2127/LEETCODE/tree/master/0016-3sum-closest) |
+## Database
+|  |
+| ------- |
+| [0197-rising-temperature](https://github.com/RITESH2127/LEETCODE/tree/master/0197-rising-temperature) |
 <!---LeetCode Topics End-->
