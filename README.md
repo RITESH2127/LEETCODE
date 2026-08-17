@@ -369,6 +369,7 @@ Made with ❤️ by [RITESH2127](https://github.com/RITESH2127)
 |  |
 | ------- |
 | [0197-rising-temperature](https://github.com/RITESH2127/LEETCODE/tree/master/0197-rising-temperature) |
+| [1661-average-time-of-process-per-machine](https://github.com/RITESH2127/LEETCODE/tree/master/1661-average-time-of-process-per-machine) |
 ## Hash Table
 |  |
 | ------- |
