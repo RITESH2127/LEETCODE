@@ -12,8 +12,15 @@ class Solution(object):
             '6': 'mno', '7': 'pqrs', '8': 'tuv', '9': 'wxyz'
         }
         
-        result = [""]
-        for digit in digits:
-            result = [prefix + letter for prefix in result for letter in mapping[digit]]
-            
+        result = []
+        
+        def backtrack(index, current_string):
+            if index == len(digits):
+                result.append(current_string)
+                return
+                
+            for letter in mapping[digits[index]]:
+                backtrack(index + 1, current_string + letter)
+                
+        backtrack(0, "")
         return result
