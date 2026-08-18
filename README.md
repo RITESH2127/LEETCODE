@@ -395,4 +395,8 @@ Made with ❤️ by [RITESH2127](https://github.com/RITESH2127)
 |  |
 | ------- |
 | [0010-regular-expression-matching](https://github.com/RITESH2127/LEETCODE/tree/master/0010-regular-expression-matching) |
+## Math
+|  |
+| ------- |
+| [0009-palindrome-number](https://github.com/RITESH2127/LEETCODE/tree/master/0009-palindrome-number) |
 <!---LeetCode Topics End-->
