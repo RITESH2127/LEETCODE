@@ -357,14 +357,17 @@ Made with ❤️ by [RITESH2127](https://github.com/RITESH2127)
 |  |
 | ------- |
 | [0016-3sum-closest](https://github.com/RITESH2127/LEETCODE/tree/master/0016-3sum-closest) |
+| [0018-4sum](https://github.com/RITESH2127/LEETCODE/tree/master/0018-4sum) |
 ## Two Pointers
 |  |
 | ------- |
 | [0016-3sum-closest](https://github.com/RITESH2127/LEETCODE/tree/master/0016-3sum-closest) |
+| [0018-4sum](https://github.com/RITESH2127/LEETCODE/tree/master/0018-4sum) |
 ## Sorting
 |  |
 | ------- |
 | [0016-3sum-closest](https://github.com/RITESH2127/LEETCODE/tree/master/0016-3sum-closest) |
+| [0018-4sum](https://github.com/RITESH2127/LEETCODE/tree/master/0018-4sum) |
 ## Database
 |  |
 | ------- |
