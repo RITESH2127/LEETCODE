@@ -6,4 +6,4 @@ FROM
 LEFT JOIN 
     Bonus b ON e.empId = b.empId
 WHERE 
-    COALESCE(b.bonus, 0) < 1000;
+    b.bonus < 1000 OR b.bonus IS NULL;
