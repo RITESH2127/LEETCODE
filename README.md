@@ -399,5 +399,6 @@ Made with ❤️ by [RITESH2127](https://github.com/RITESH2127)
 ## Math
 |  |
 | ------- |
+| [0007-reverse-integer](https://github.com/RITESH2127/LEETCODE/tree/master/0007-reverse-integer) |
 | [0009-palindrome-number](https://github.com/RITESH2127/LEETCODE/tree/master/0009-palindrome-number) |
 <!---LeetCode Topics End-->
