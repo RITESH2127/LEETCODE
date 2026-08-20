@@ -356,11 +356,13 @@ Made with ❤️ by [RITESH2127](https://github.com/RITESH2127)
 ## Array
 |  |
 | ------- |
+| [0011-container-with-most-water](https://github.com/RITESH2127/LEETCODE/tree/master/0011-container-with-most-water) |
 | [0016-3sum-closest](https://github.com/RITESH2127/LEETCODE/tree/master/0016-3sum-closest) |
 | [0018-4sum](https://github.com/RITESH2127/LEETCODE/tree/master/0018-4sum) |
 ## Two Pointers
 |  |
 | ------- |
+| [0011-container-with-most-water](https://github.com/RITESH2127/LEETCODE/tree/master/0011-container-with-most-water) |
 | [0016-3sum-closest](https://github.com/RITESH2127/LEETCODE/tree/master/0016-3sum-closest) |
 | [0018-4sum](https://github.com/RITESH2127/LEETCODE/tree/master/0018-4sum) |
 ## Sorting
@@ -402,4 +404,8 @@ Made with ❤️ by [RITESH2127](https://github.com/RITESH2127)
 | ------- |
 | [0007-reverse-integer](https://github.com/RITESH2127/LEETCODE/tree/master/0007-reverse-integer) |
 | [0009-palindrome-number](https://github.com/RITESH2127/LEETCODE/tree/master/0009-palindrome-number) |
+## Greedy
+|  |
+| ------- |
+| [0011-container-with-most-water](https://github.com/RITESH2127/LEETCODE/tree/master/0011-container-with-most-water) |
 <!---LeetCode Topics End-->
