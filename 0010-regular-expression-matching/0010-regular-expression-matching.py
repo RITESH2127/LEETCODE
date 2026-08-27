@@ -6,18 +6,21 @@ class Solution(object):
         :rtype: bool
         """
         m, n = len(s), len(p)
-        dp = [[False] * (n + 1) for _ in range(m + 1)]
-        dp[0][0] = True
+        prev = [False] * (n + 1)
+        curr = [False] * (n + 1)
+        prev[0] = True
         
         for j in range(1, n + 1):
             if p[j - 1] == '*':
-                dp[0][j] = dp[0][j - 2]
+                prev[j] = prev[j - 2]
                 
         for i in range(1, m + 1):
+            curr[0] = False
             for j in range(1, n + 1):
                 if p[j - 1] == '*':
-                    dp[i][j] = dp[i][j - 2] or (dp[i - 1][j] and p[j - 2] in {s[i - 1], '.'})
+                    curr[j] = curr[j - 2] or (prev[j] and p[j - 2] in {s[i - 1], '.'})
                 else:
-                    dp[i][j] = dp[i - 1][j - 1] and p[j - 1] in {s[i - 1], '.'}
-                    
-        return dp[m][n]
+                    curr[j] = prev[j - 1] and p[j - 1] in {s[i - 1], '.'}
+            prev = curr[:]
+            
+        return prev[n]
