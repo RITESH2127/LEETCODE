@@ -331,6 +331,7 @@ Found this helpful? Let's connect:
 |  |
 | ------- |
 | [1075-project-employees-i](https://github.com/RITESH2127/LEETCODE/tree/master/1075-project-employees-i) |
+| [1193-monthly-transactions-i](https://github.com/RITESH2127/LEETCODE/tree/master/1193-monthly-transactions-i) |
 | [1211-queries-quality-and-percentage](https://github.com/RITESH2127/LEETCODE/tree/master/1211-queries-quality-and-percentage) |
 | [1633-percentage-of-users-attended-a-contest](https://github.com/RITESH2127/LEETCODE/tree/master/1633-percentage-of-users-attended-a-contest) |
 ## Array
