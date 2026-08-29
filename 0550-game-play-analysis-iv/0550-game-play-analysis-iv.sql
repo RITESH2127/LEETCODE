@@ -1,14 +1,18 @@
 # Write your MySQL query statement below
+WITH first_login AS (
+    SELECT
+        player_id,
+        event_date,
+        MIN(event_date) OVER (PARTITION BY player_id) AS first_date
+    FROM Activity
+)
+
 SELECT ROUND(
-    COUNT(DISTINCT a.player_id) /
-    (SELECT COUNT(DISTINCT player_id) FROM Activity),
+    COUNT(DISTINCT CASE
+        WHEN event_date = DATE_ADD(first_date, INTERVAL 1 DAY)
+        THEN player_id
+    END)
+    / COUNT(DISTINCT player_id),
     2
 ) AS fraction
-FROM Activity a
-JOIN (
-    SELECT player_id, MIN(event_date) AS first_date
-    FROM Activity
-    GROUP BY player_id
-) f
-ON a.player_id = f.player_id
-AND a.event_date = DATE_ADD(f.first_date, INTERVAL 1 DAY);
+FROM first_login;
