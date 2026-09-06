@@ -1,9 +1,16 @@
 # Write your MySQL query statement below
+WITH UniquePurchases AS (
+    SELECT DISTINCT 
+        customer_id, 
+        product_key
+    FROM 
+        Customer
+)
 SELECT 
     customer_id
 FROM 
-    Customer
+    UniquePurchases
 GROUP BY 
     customer_id
 HAVING 
-    COUNT(DISTINCT product_key) = (SELECT COUNT(*) FROM Product);
+    COUNT(*) = (SELECT COUNT(*) FROM Product);
