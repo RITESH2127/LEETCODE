@@ -330,6 +330,7 @@ Found this helpful? Let's connect:
 ## Database
 |  |
 | ------- |
+| [0180-consecutive-numbers](https://github.com/RITESH2127/LEETCODE/tree/master/0180-consecutive-numbers) |
 | [0550-game-play-analysis-iv](https://github.com/RITESH2127/LEETCODE/tree/master/0550-game-play-analysis-iv) |
 | [0596-classes-with-at-least-5-students](https://github.com/RITESH2127/LEETCODE/tree/master/0596-classes-with-at-least-5-students) |
 | [0610-triangle-judgement](https://github.com/RITESH2127/LEETCODE/tree/master/0610-triangle-judgement) |
