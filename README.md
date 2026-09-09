@@ -342,6 +342,7 @@ Found this helpful? Let's connect:
 | [1164-product-price-at-a-given-date](https://github.com/RITESH2127/LEETCODE/tree/master/1164-product-price-at-a-given-date) |
 | [1174-immediate-food-delivery-ii](https://github.com/RITESH2127/LEETCODE/tree/master/1174-immediate-food-delivery-ii) |
 | [1193-monthly-transactions-i](https://github.com/RITESH2127/LEETCODE/tree/master/1193-monthly-transactions-i) |
+| [1204-last-person-to-fit-in-the-bus](https://github.com/RITESH2127/LEETCODE/tree/master/1204-last-person-to-fit-in-the-bus) |
 | [1211-queries-quality-and-percentage](https://github.com/RITESH2127/LEETCODE/tree/master/1211-queries-quality-and-percentage) |
 | [1633-percentage-of-users-attended-a-contest](https://github.com/RITESH2127/LEETCODE/tree/master/1633-percentage-of-users-attended-a-contest) |
 | [1729-find-followers-count](https://github.com/RITESH2127/LEETCODE/tree/master/1729-find-followers-count) |
