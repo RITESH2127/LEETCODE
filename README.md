@@ -1,373 +1,449 @@
 # LeetCode Solutions
 
-> A curated, well-organized collection of optimized LeetCode solutions demonstrating core algorithmic and database concepts for technical interviews.
+<p align="center">
+  <strong>48 problems solved. One repository for deliberate problem solving.</strong><br/>
+  Algorithms, data structures, SQL, complexity analysis, and interview-focused practice.
+</p>
+
+<p align="center">
+  <a href="https://leetcode.com/"><img src="https://img.shields.io/badge/LeetCode-Practice-FFA116?style=for-the-badge&logo=leetcode&logoColor=black" alt="LeetCode"/></a>
+  <img src="https://img.shields.io/badge/Problems-48-111827?style=for-the-badge" alt="48 problems solved"/>
+  <img src="https://img.shields.io/badge/Python-Solutions-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python"/>
+  <img src="https://img.shields.io/badge/SQL-Solutions-336791?style=for-the-badge&logo=postgresql&logoColor=white" alt="SQL"/>
+  <img src="https://img.shields.io/github/last-commit/RITESH2127/LEETCODE?style=for-the-badge" alt="Last commit"/>
+</p>
+
+<p align="center">
+  <a href="#overview">Overview</a> ·
+  <a href="#progress">Progress</a> ·
+  <a href="#patterns-covered">Patterns</a> ·
+  <a href="#repository-structure">Structure</a> ·
+  <a href="#how-to-use">How to Use</a> ·
+  <a href="#roadmap">Roadmap</a>
+</p>
 
 ---
 
-## 📊 Quick Stats
+## Overview
 
-| Metric | Count |
-|--------|-------|
-| **Total Problems** | 27+ |
-| **Easy** | 15 |
-| **Medium** | 11 |
-| **Hard** | 1 |
-| **Topics** | 12+ |
-| **Languages** | Python, SQL |
+This repository is a continuously evolving collection of **LeetCode problem solutions** built around a simple principle:
 
----
+> **Understand the pattern, solve it cleanly, analyze the trade-offs, then move on to the next problem.**
 
-## 🎯 What's Inside
+The repository combines **algorithmic problem solving** with **SQL/database interview practice**, with solutions organized by LeetCode problem ID so every exercise is easy to locate, study, and revisit.
 
-This repository contains clean, well-documented solutions across key topics tested in technical interviews:
-
-### 📚 Topics Covered
-
-| Topic | Problems | Key Concepts |
-|-------|----------|--------------|
-| **Array** | 6 | Two-pointers, hashing, sorting |
-| **String** | 6 | Pattern matching, manipulation, encoding |
-| **Database** | 10 | JOINs, window functions, aggregation |
-| **Linked List** | 1 | Node operations, traversal |
-| **Hash Table** | 3 | Lookups, frequency analysis |
-| **Math** | 3 | Number theory, arithmetic |
-| **Trie** | 1 | Prefix trees, string searching |
-| **Recursion** | 2 | Recursive patterns, memoization |
-| **Two Pointers** | 3 | Optimization techniques |
-| **Sorting** | 2 | Sort-based algorithms |
-| **Backtracking** | 1 | Decision trees, exploration |
-| **Dynamic Programming** | 1 | Pattern matching with DP |
-| **Greedy** | 1 | Locally optimal solutions |
+The current collection contains **48 solved problems**, including **27 Easy, 20 Medium, and 1 Hard** according to the repository's tracked statistics.
 
 ---
 
-## 🚀 Highlights
+# Progress
 
-✨ **Verified Solutions** — Every solution is tested against LeetCode's test suite  
-📖 **Problem Explanations** — Detailed README for each problem with constraints and examples  
-🎓 **Multiple Approaches** — Solutions progress from brute force to optimized implementations  
-⚡ **Complexity Analysis** — Big O time and space analysis for all solutions  
-🏗️ **Clean Code** — Production-quality implementations with clear documentation  
-🔍 **Interview Ready** — Structured for systematic learning and quick reference  
+| Difficulty | Solved |
+|:---|---:|
+| Easy | 27 |
+| Medium | 20 |
+| Hard | 1 |
+| **Total** | **48** |
+
+### Problem Mix
+
+~~~text
+48 solved problems
+│
+├── Algorithmic problem solving
+│   ├── Arrays
+│   ├── Strings
+│   ├── Hashing
+│   ├── Two Pointers
+│   ├── Linked Lists
+│   ├── Recursion
+│   ├── Backtracking
+│   ├── Dynamic Programming
+│   ├── Greedy techniques
+│   └── Mathematical problems
+│
+└── SQL / Database problem solving
+    ├── Filtering
+    ├── JOINs
+    ├── Aggregation
+    ├── GROUP BY / HAVING
+    ├── Subqueries
+    ├── Window-function patterns
+    └── Conditional logic
+~~~
+
+> Counts are based on the repository's current `stats.json` and can change as new solutions are added.
 
 ---
 
-## 📂 Repository Structure
+# Patterns Covered
 
-```
+## Arrays and Searching
+
+The collection uses common techniques for reducing brute-force solutions into efficient search and traversal strategies.
+
+- Hash maps
+- Sorting
+- Two pointers
+- In-place modification
+- Multi-pointer traversal
+- Target-oriented search
+
+Representative problems:
+
+| Problem | Core pattern |
+|---|---|
+| [Two Sum](0001-two-sum) | Hash map lookup |
+| [Remove Element](0027-remove-element) | In-place array manipulation |
+| [Container With Most Water](0011-container-with-most-water) | Two pointers |
+| [3Sum](0015-3sum) | Sorting + two pointers |
+| [3Sum Closest](0016-3sum-closest) | Target search |
+| [4Sum](0018-4sum) | Multi-pointer reduction |
+
+## Strings and Parsing
+
+String problems cover traversal, comparison, mapping, pattern recognition, and parsing.
+
+| Problem | Core pattern |
+|---|---|
+| [Zigzag Conversion](0006-zigzag-conversion) | Structured traversal |
+| [Integer to Roman](0012-integer-to-roman) | Greedy mapping |
+| [Roman to Integer](0013-roman-to-integer) | Parsing |
+| [Longest Common Prefix](0014-longest-common-prefix) | Prefix comparison |
+| [Regular Expression Matching](0010-regular-expression-matching) | Dynamic programming |
+
+## Linked Lists
+
+The collection includes linked-list manipulation through [Add Two Numbers](0002-add-two-numbers), focusing on pointer movement, carry propagation, node construction, and traversal.
+
+## Recursion and Backtracking
+
+These problems reinforce recursive decomposition, state-space exploration, and search-tree reasoning.
+
+Examples include [Letter Combinations of a Phone Number](0017-letter-combinations-of-a-phone-number) and [Regular Expression Matching](0010-regular-expression-matching).
+
+## Dynamic Programming and Greedy Thinking
+
+The repository includes problems where recognizing state transitions, reusable subproblems, or locally optimal decisions is central to the solution.
+
+---
+
+# SQL / Database Practice
+
+The SQL track focuses on common data-interview patterns and on translating business requirements into relational logic.
+
+| Pattern | Typical techniques |
+|---|---|
+| Filtering | `WHERE`, comparisons, `IN` |
+| NULL handling | `IS NULL`, `IS NOT NULL` |
+| Aggregation | `COUNT`, `SUM`, `AVG`, `MIN`, `MAX` |
+| Grouping | `GROUP BY`, `HAVING` |
+| JOINs | `INNER JOIN`, `LEFT JOIN` |
+| Subqueries | Scalar and correlated patterns |
+| Conditional logic | `CASE` expressions |
+| Analytic reasoning | Ranking, ordering, time-based comparisons |
+
+Representative problems:
+
+- [Rising Temperature](0197-rising-temperature)
+- [Managers With at Least 5 Direct Reports](0570-managers-with-at-least-5-direct-reports)
+- [Employee Bonus](0577-employee-bonus)
+- [Find Customer Referee](0584-find-customer-referee)
+- [Big Countries](0595-big-countries)
+- [Triangle Judgement](0610-triangle-judgement)
+- [Consecutive Numbers](0180-consecutive-numbers)
+- [Confirmation Rate](1934-confirmation-rate)
+- [Count Salary Categories](1907-count-salary-categories)
+
+---
+
+# Repository Structure
+
+Every solved problem is kept in its own directory.
+
+~~~text
 LEETCODE/
-├── README.md
+│
 ├── 0001-two-sum/
 │   ├── 0001-two-sum.py
 │   └── README.md
+│
 ├── 0002-add-two-numbers/
 ├── 0006-zigzag-conversion/
 ├── 0007-reverse-integer/
-├── 0009-palindrome-number/
-├── 0010-regular-expression-matching/
-├── 0011-container-with-most-water/
-├── 0012-integer-to-roman/
-├── 0013-roman-to-integer/
-├── 0014-longest-common-prefix/
-├── 0015-3sum/
-├── 0016-3sum-closest/
-├── 0017-letter-combinations-of-a-phone-number/
-├── 0018-4sum/
+├── ...
+├── 0180-consecutive-numbers/
 ├── 0197-rising-temperature/
 ├── 0570-managers-with-at-least-5-direct-reports/
-├── 0577-employee-bonus/
-├── 0584-find-customer-referee/
-├── 0595-big-countries/
-├── 0620-not-boring-movies/
-├── 1068-product-sales-analysis-i/
-├── 1148-article-views-i/
-├── 1251-average-selling-price/
-├── 1280-students-and-examinations/
-├── 1378-replace-employee-id-with-the-unique-identifier/
-├── 1581-customer-who-visited-but-did-not-make-any-transactions/
-├── 1661-average-time-of-process-per-machine/
-├── 1683-invalid-tweets/
-├── 1757-recyclable-and-low-fat-products/
-└── 1934-confirmation-rate/
-```
+├── ...
+├── 1934-confirmation-rate/
+├── 2356-number-of-unique-subjects-taught-by-each-teacher/
+│
+├── stats.json
+└── README.md
+~~~
 
-Each problem folder contains:
-- **Solution file** — Optimized implementation in Python or SQL
-- **README.md** — Problem statement, constraints, examples, and complexity analysis
+A typical problem folder contains:
+
+~~~text
+problem-id-problem-name/
+├── problem-id-problem-name.py
+│   or
+├── problem-id-problem-name.sql
+└── README.md
+~~~
 
 ---
 
-## 🗂️ Browse by Category
+# Solution Philosophy
 
-### **Arrays & Manipulation**
-- [Two Sum](0001-two-sum) — Hash map fundamentals
-- [Add Two Numbers](0002-add-two-numbers) — Linked list arithmetic
-- [Container With Most Water](0011-container-with-most-water) — Two-pointer technique
-- [3Sum](0015-3sum) — Sorting with multi-pointer approach
-- [3Sum Closest](0016-3sum-closest) — Target-based search
-- [4Sum](0018-4sum) — Generalized multi-pointer solution
+This repository is intended to be a **problem-solving record**, not a dump of accepted code.
 
-### **Strings & Patterns**
-- [Zigzag Conversion](0006-zigzag-conversion) — String traversal patterns
-- [Regular Expression Matching](0010-regular-expression-matching) — Dynamic programming
-- [Integer to Roman](0012-integer-to-roman) — Greedy character encoding
-- [Roman to Integer](0013-roman-to-integer) — Numeral parsing
-- [Longest Common Prefix](0014-longest-common-prefix) — Trie-based optimization
-- [Letter Combinations](0017-letter-combinations-of-a-phone-number) — Backtracking
+~~~text
+Problem
+  ↓
+Understand constraints
+  ↓
+Identify the pattern
+  ↓
+Write the simplest correct approach
+  ↓
+Analyze time and space
+  ↓
+Look for optimization
+  ↓
+Implement cleanly
+  ↓
+Test edge cases
+  ↓
+Record the solution
+~~~
 
-### **Math & Numbers**
-- [Reverse Integer](0007-reverse-integer) — Arithmetic & overflow handling
-- [Palindrome Number](0009-palindrome-number) — Numeric analysis
+Every solution should be considered through three lenses:
 
-### **Database & SQL**
-- [Rising Temperature](0197-rising-temperature) — Window functions
-- [Managers With Direct Reports](0570-managers-with-at-least-5-direct-reports) — Subqueries & aggregation
-- [Employee Bonus](0577-employee-bonus) — LEFT JOIN patterns
-- [Find Customer Referee](0584-find-customer-referee) — NULL handling
-- [Big Countries](0595-big-countries) — Dataset filtering
-- [Not Boring Movies](0620-not-boring-movies) — Modulo & filtering
-- [Product Sales Analysis](1068-product-sales-analysis-i) — INNER JOIN operations
-- [Article Views](1148-article-views-i) — GROUP BY & HAVING
-- [And 6 more...](1251-average-selling-price)
+### Correctness
+Handle the full problem specification and edge cases.
 
----
+### Complexity
+Evaluate time complexity, space complexity, constraints, and practical trade-offs.
 
-## 💡 How to Use This Repository
-
-### 1. **Study by Difficulty**
-Start with Easy problems to build fundamentals, then progress to Medium and Hard for deeper understanding.
-
-### 2. **Learn by Topic**
-Group problems by algorithm type to master specific techniques:
-- Two-pointer problems together
-- Dynamic programming patterns
-- Database query optimization
-
-### 3. **Understand the Approach**
-Each problem folder contains detailed explanations:
-- Problem statement with constraints
-- Solution approach and trade-offs
-- Time and space complexity analysis
-- Working examples
-
-### 4. **Review the Code**
-Solutions demonstrate:
-- Clean, readable implementation
-- Inline comments explaining logic
-- Production-quality coding standards
-- Language idioms and optimizations
-
-### 5. **Practice from Scratch**
-After reviewing a solution, close it and implement from memory on [LeetCode](https://leetcode.com) to reinforce learning.
+### Pattern recognition
+The goal is to recognize reusable structures rather than memorize isolated answers.
 
 ---
 
-## 🎓 Interview Preparation
+# How to Use
 
-This collection is strategically curated for technical interviews at:
-- **FAANG companies** — Google, Apple, Amazon, Microsoft, Meta
-- **High-growth startups**
-- **Quantitative trading firms**
-- **Tech consulting firms**
+## Study Mode
 
-### Key Interview Topics Covered
-- Hash-based data structures and lookups (O(1) operations)
-- Sorting and searching with optimization
-- Greedy algorithms and locally optimal choices
-- Two-pointer techniques for space efficiency
-- Dynamic programming for complex optimization
-- SQL queries for data analysis and aggregation
-- Recursion and backtracking for combinatorial problems
-- Linked list manipulation and traversal
+Choose a pattern and solve related problems together.
+
+~~~text
+Two Pointers
+    ↓
+Container With Most Water
+    ↓
+3Sum
+    ↓
+3Sum Closest
+    ↓
+4Sum
+~~~
+
+## Interview Mode
+
+1. Read the problem.
+2. Hide the solution.
+3. Derive the approach independently.
+4. Implement it.
+5. Compare with the repository solution.
+6. Check complexity and edge cases.
+7. Re-solve later without looking.
+
+## SQL Mode
+
+~~~text
+Requirement
+    ↓
+Identify tables
+    ↓
+Identify relationships
+    ↓
+Choose JOIN / subquery
+    ↓
+Filter
+    ↓
+Aggregate
+    ↓
+Order / window / condition
+    ↓
+Final result
+~~~
 
 ---
 
-## 🔧 Running Solutions
+# Running Python Solutions
 
-### Prerequisites
-- Python 3.7+ (for algorithm solutions)
-- SQL database or online judge (for database solutions)
+Python is used for the algorithmic solutions.
 
-### Execute Python Solutions
-
-```bash
-# Navigate to a problem folder
+~~~bash
 cd 0001-two-sum
+python 0001-two-sum.py
+~~~
 
-# Run the solution
+On systems where Python 3 is invoked explicitly:
+
+~~~bash
 python3 0001-two-sum.py
-```
+~~~
 
-### Test on LeetCode
-
-Each problem folder's README includes:
-- Direct link to the LeetCode problem
-- Problem constraints and examples
-- Copy-paste ready test cases
-
-Navigate to the problem on [LeetCode.com](https://leetcode.com), paste the solution code, and verify it passes all test cases.
+Some solutions follow LeetCode's function-signature format and may require a small local test harness for standalone execution.
 
 ---
 
-## 📈 Learning Progression
+# Running SQL Solutions
 
-### Beginner Foundation
-Master these core problems to build algorithmic thinking:
+SQL solutions are written for LeetCode's database environment.
 
-1. [Two Sum](0001-two-sum) — Understand hash maps and lookups
-2. [Reverse Integer](0007-reverse-integer) — Arithmetic operations and edge cases
-3. [Palindrome Number](0009-palindrome-number) — Number analysis without string conversion
-4. [Integer to Roman](0012-integer-to-roman) — Mapping and greedy selection
+~~~text
+1. Open the corresponding LeetCode problem.
+2. Review the provided schema.
+3. Paste the query.
+4. Execute against the online judge.
+5. Compare the result with the expected output.
+~~~
 
-### Intermediate Techniques
-Progress to more complex patterns:
-
-1. [Add Two Numbers](0002-add-two-numbers) — Linked list traversal
-2. [Longest Common Prefix](0014-longest-common-prefix) — Trie data structures
-3. [3Sum](0015-3sum) — Sorting with two-pointer optimization
-4. [Container With Most Water](0011-container-with-most-water) — Greedy optimization
-
-### Advanced Challenges
-Complex optimization problems requiring multiple techniques:
-
-1. [Regular Expression Matching](0010-regular-expression-matching) — Dynamic programming
-2. [Letter Combinations](0017-letter-combinations-of-a-phone-number) — Backtracking
-3. [4Sum](0018-4sum) — Multi-pointer generalizations
+The queries can also be adapted for local database engines where syntax is compatible.
 
 ---
 
-## ✅ Solution Checklist
+# Complexity Guide
 
-Each solution includes:
+| Complexity | Typical use |
+|---|---|
+| O(1) | Constant-time lookup or work |
+| O(log n) | Binary-search-style reduction |
+| O(n) | Single-pass traversal |
+| O(n log n) | Comparison sorting |
+| O(n²) | Pairwise search under suitable constraints |
+| O(2ⁿ) / O(n!) | Exhaustive state-space exploration |
 
-- ✅ **Problem Statement** — Clear description of what needs to be solved
-- ✅ **Constraints** — Input/output boundaries and special cases
-- ✅ **Approach** — High-level explanation of the strategy
-- ✅ **Implementation** — Production-quality code with comments
-- ✅ **Complexity Analysis** — Time and space Big O notation
-- ✅ **Test Cases** — Verified examples from LeetCode
-- ✅ **Trade-offs** — Discussion of alternative approaches
-
----
-
-## 🤝 Contributing
-
-Contributions improve this resource for everyone.
-
-### Ways to Contribute
-
-- **Optimize existing solutions** for better complexity
-- **Add solutions in new languages** (Java, C++, Go, Rust, etc.)
-- **Improve documentation** and explanations
-- **Fix bugs or issues** in existing code
-- **Add additional test cases** and edge cases
-- **Suggest new problems** to include
-
-### Contribution Guidelines
-
-1. **Fork the repository**
-2. **Create a feature branch** with a descriptive name
-3. **Make your changes** following the existing code style
-4. **Verify solutions work** against LeetCode test suite
-5. **Commit with clear messages** explaining what was changed
-6. **Submit a pull request** with detailed description
+The objective is not to minimize Big-O notation at any cost. A strong interview solution balances **correctness, constraints, clarity, maintainability, and performance**.
 
 ---
 
-## 📚 Resources & References
+# Learning Roadmap
 
-### Practice Platforms
-- [LeetCode](https://leetcode.com) — The definitive coding interview platform
-- [GeeksforGeeks](https://www.geeksforgeeks.org) — Algorithm tutorials and explanations
-- [NeetCode](https://neetcode.io) — Video walkthroughs and patterns
+~~~mermaid
+flowchart LR
+    A["Arrays"] --> B["Hashing"]
+    B --> C["Two Pointers"]
+    C --> D["Strings"]
+    D --> E["Linked Lists"]
+    E --> F["Recursion"]
+    F --> G["Backtracking"]
+    G --> H["Greedy"]
+    H --> I["Dynamic Programming"]
+    I --> J["Advanced Patterns"]
+    C --> K["SQL Fundamentals"]
+    K --> L["JOINs"]
+    L --> M["Aggregation"]
+    M --> N["Subqueries"]
+    N --> O["Advanced SQL"]
+~~~
 
-### Learning Materials
-- **Cracking the Coding Interview** — Essential interview preparation guide
-- **Introduction to Algorithms (CLRS)** — Theoretical algorithm foundations
-- **Algorithm Design Manual** — Practical algorithm reference
+### Suggested progression
 
-### Algorithm Visualizations
-- [Visualgo](https://visualgo.net) — Interactive algorithm animations
-- [Big O Cheat Sheet](https://www.bigocheatsheet.com) — Complexity reference
+**Foundation**
 
----
+Arrays → Hashing → Strings → Basic SQL
 
-## 📄 License
+**Core interview patterns**
 
-This project is licensed under the MIT License — see the [LICENSE](LICENSE) file for details.
+Two Pointers → Sorting → Linked Lists → JOINs → Aggregation
 
-You are free to use, modify, and distribute this code with appropriate attribution.
+**Advanced reasoning**
 
----
-
-## 🙏 Acknowledgments
-
-This repository was created using [LeetHub v2](https://github.com/arunbhardwaj/LeetHub-2.0), an automated tool for syncing LeetCode solutions to GitHub.
-
----
-
-## 📬 Connect
-
-Found this helpful? Let's connect:
-
-- **GitHub** — [@RITESH2127](https://github.com/RITESH2127)
-- **LeetCode** — [Profile](https://leetcode.com/RITESH2127/)
-
-**Star this repository** ⭐ if it helped with your interview preparation!
+Recursion → Backtracking → Dynamic Programming → Advanced SQL
 
 ---
 
-<div align="center">
+# Roadmap
 
-### Master the fundamentals. Perfect the patterns. Ace the interview.
+This repository is intended to grow from a collection of solutions into a structured interview-preparation knowledge base.
 
-*Last updated: 2026-08-23*
+- Expand coverage across major DSA patterns.
+- Increase the Medium and Hard problem set.
+- Add more SQL problems covering advanced analytics.
+- Standardize per-problem README structure.
+- Improve edge-case and trade-off explanations.
+- Add language variants where useful.
+- Track progress automatically through repository statistics.
+- Introduce lightweight automated validation for solution files.
 
-</div>
+---
 
-<!---LeetCode Topics Start-->
-# LeetCode Topics
-## Database
-|  |
-| ------- |
-| [0180-consecutive-numbers](https://github.com/RITESH2127/LEETCODE/tree/master/0180-consecutive-numbers) |
-| [0550-game-play-analysis-iv](https://github.com/RITESH2127/LEETCODE/tree/master/0550-game-play-analysis-iv) |
-| [0596-classes-with-at-least-5-students](https://github.com/RITESH2127/LEETCODE/tree/master/0596-classes-with-at-least-5-students) |
-| [0610-triangle-judgement](https://github.com/RITESH2127/LEETCODE/tree/master/0610-triangle-judgement) |
-| [0619-biggest-single-number](https://github.com/RITESH2127/LEETCODE/tree/master/0619-biggest-single-number) |
-| [1045-customers-who-bought-all-products](https://github.com/RITESH2127/LEETCODE/tree/master/1045-customers-who-bought-all-products) |
-| [1070-product-sales-analysis-iii](https://github.com/RITESH2127/LEETCODE/tree/master/1070-product-sales-analysis-iii) |
-| [1075-project-employees-i](https://github.com/RITESH2127/LEETCODE/tree/master/1075-project-employees-i) |
-| [1141-user-activity-for-the-past-30-days-i](https://github.com/RITESH2127/LEETCODE/tree/master/1141-user-activity-for-the-past-30-days-i) |
-| [1164-product-price-at-a-given-date](https://github.com/RITESH2127/LEETCODE/tree/master/1164-product-price-at-a-given-date) |
-| [1174-immediate-food-delivery-ii](https://github.com/RITESH2127/LEETCODE/tree/master/1174-immediate-food-delivery-ii) |
-| [1193-monthly-transactions-i](https://github.com/RITESH2127/LEETCODE/tree/master/1193-monthly-transactions-i) |
-| [1204-last-person-to-fit-in-the-bus](https://github.com/RITESH2127/LEETCODE/tree/master/1204-last-person-to-fit-in-the-bus) |
-| [1211-queries-quality-and-percentage](https://github.com/RITESH2127/LEETCODE/tree/master/1211-queries-quality-and-percentage) |
-| [1633-percentage-of-users-attended-a-contest](https://github.com/RITESH2127/LEETCODE/tree/master/1633-percentage-of-users-attended-a-contest) |
-| [1729-find-followers-count](https://github.com/RITESH2127/LEETCODE/tree/master/1729-find-followers-count) |
-| [1731-the-number-of-employees-which-report-to-each-employee](https://github.com/RITESH2127/LEETCODE/tree/master/1731-the-number-of-employees-which-report-to-each-employee) |
-| [1789-primary-department-for-each-employee](https://github.com/RITESH2127/LEETCODE/tree/master/1789-primary-department-for-each-employee) |
-| [1907-count-salary-categories](https://github.com/RITESH2127/LEETCODE/tree/master/1907-count-salary-categories) |
-| [2356-number-of-unique-subjects-taught-by-each-teacher](https://github.com/RITESH2127/LEETCODE/tree/master/2356-number-of-unique-subjects-taught-by-each-teacher) |
-## Array
-|  |
-| ------- |
-| [0027-remove-element](https://github.com/RITESH2127/LEETCODE/tree/master/0027-remove-element) |
-## Two Pointers
-|  |
-| ------- |
-| [0027-remove-element](https://github.com/RITESH2127/LEETCODE/tree/master/0027-remove-element) |
-## String
-|  |
-| ------- |
-| [0010-regular-expression-matching](https://github.com/RITESH2127/LEETCODE/tree/master/0010-regular-expression-matching) |
-## Dynamic Programming
-|  |
-| ------- |
-| [0010-regular-expression-matching](https://github.com/RITESH2127/LEETCODE/tree/master/0010-regular-expression-matching) |
-## Recursion
-|  |
-| ------- |
-| [0010-regular-expression-matching](https://github.com/RITESH2127/LEETCODE/tree/master/0010-regular-expression-matching) |
-<!---LeetCode Topics End-->
+# Design Principles
+
+| Principle | Meaning |
+|---|---|
+| **Clarity** | Understandable code before clever code |
+| **Efficiency** | Respect constraints and avoid unnecessary work |
+| **Consistency** | Similar patterns documented in similar ways |
+| **Depth** | Understand why an approach works |
+| **Repetition** | Revisit patterns until recognition becomes natural |
+| **Incremental growth** | Improve one problem at a time |
+
+---
+
+# Useful Resources
+
+- [LeetCode](https://leetcode.com/) — Problem platform and judge
+- [NeetCode](https://neetcode.io/) — Pattern-based interview preparation
+- [GeeksforGeeks](https://www.geeksforgeeks.org/) — Algorithms and data structures reference
+- [Visualgo](https://visualgo.net/) — Algorithm visualizations
+- [Big-O Cheat Sheet](https://www.bigocheatsheet.com/) — Complexity reference
+
+---
+
+# Contribution
+
+Useful contributions include:
+
+- Correctness fixes
+- Complexity improvements
+- Cleaner explanations
+- Additional language implementations
+- Stronger edge-case coverage
+- Documentation improvements
+
+For substantial changes, open an issue or pull request with a clear explanation of the proposed improvement.
+
+---
+
+# License
+
+This repository is licensed under the MIT License.
+
+---
+
+# Author
+
+<p align="center">
+  <strong>Ritesh Kumar</strong><br/>
+  Computer Science Engineering
+</p>
+
+<p align="center">
+  <a href="https://github.com/RITESH2127">GitHub</a>
+  ·
+  <a href="https://leetcode.com/RITESH2127/">LeetCode</a>
+  ·
+  <a href="https://github.com/RITESH2127/LEETCODE">Repository</a>
+</p>
+
+---
+
+<p align="center">
+  <sub>One problem at a time. One pattern at a time. Better problem solving over time.</sub>
+</p>
