@@ -447,3 +447,11 @@ This repository is licensed under the MIT License.
 <p align="center">
   <sub>One problem at a time. One pattern at a time. Better problem solving over time.</sub>
 </p>
+
+<!---LeetCode Topics Start-->
+# LeetCode Topics
+## Database
+|  |
+| ------- |
+| [0196-delete-duplicate-emails](https://github.com/RITESH2127/LEETCODE/tree/master/0196-delete-duplicate-emails) |
+<!---LeetCode Topics End-->
